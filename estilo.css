@@ -13,78 +13,78 @@
   --Black: hsl(0, 0%, 7%);
 }
 @font-face {
-  font-family: 'Figtree-Italic';
+  font-family: "Figtree-Italic";
   src: url(/assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
 }
 
 @font-face {
-  font-family: 'Figtree';
+  font-family: "Figtree";
   src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
 }
 
 body {
-  background-color: var(--Yellow);  
+  background-color: var(--Yellow);
 }
-.contenido{
+.contenido {
   display: flex;
   justify-content: center;
   margin-top: 4rem;
 }
-.tarjeta{
+.tarjeta {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: var(--White);  
+  background-color: var(--White);
   padding: 20px;
   border-radius: 1.5rem;
   border-style: solid;
   border-width: 0.05rem;
 }
-.ancho{
+.ancho {
   max-width: 310px;
 }
-.imagen{
+.imagen {
   border-radius: 0.5rem;
 }
-.texto{
+.texto {
   border-radius: 0.5rem;
 }
-.fuente{
-  font-family: 'Figtree', sans-serif;
+.fuente {
+  font-family: "Figtree", sans-serif;
 }
-.tamanioTitulo{
+.tamanioTitulo {
   font-size: 22px;
 }
-.tamanioPublished{
+.tamanioPublished {
   font-size: 14px;
 }
-.fuente800{
+.fuente800 {
   font-weight: 800;
 }
-.fuente600{
+.fuente600 {
   font-weight: 600;
 }
-.fuenteGris{
+.fuenteGris {
   color: var(--Grey);
 }
-.colorFondo{
+.colorFondo {
   background-color: var(--Yellow);
 }
 
-.margenes{
+.margenes {
   border-radius: 5px;
   padding: 6px;
 }
 
-.usuario{
+.usuario {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-.nombre{
+.nombre {
   margin-left: 15px;
   font-size: 15px;
 }
-.foto{
+.foto {
   max-width: 40px;
 }
