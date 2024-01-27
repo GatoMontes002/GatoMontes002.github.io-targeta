@@ -88,3 +88,9 @@ body {
 .foto {
   max-width: 40px;
 }
+
+h1{
+  font-family: "Figtree", sans-serif;
+  font-size: 22px;
+  font-weight: 800;
+}
