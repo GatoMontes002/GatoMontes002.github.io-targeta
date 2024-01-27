@@ -101,4 +101,7 @@ h1{
   .ancho {
     max-width: 250px;
   }
+  h1{
+    font-size: 19px;
+  }
 }
