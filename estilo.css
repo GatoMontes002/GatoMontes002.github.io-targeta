@@ -75,3 +75,16 @@ body {
   border-radius: 5px;
   padding: 6px;
 }
+
+.usuario{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nombre{
+  margin-left: 15px;
+  font-size: 15px;
+}
+.foto{
+  max-width: 40px;
+}
